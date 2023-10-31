@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALTA</title>
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+</head>
+<body>
+<h1>ALTA</h1>
+<!-- formulario de alta -->
+<form method="POST" action="procesarForm.php" id="alta-form">
+    <label for="idJesuita">N° puesto:</label>
+    <input type="number" name="idJesuita" required>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" required>
+
+    <label for="firma">Firma:</label>
+    <input type="text" name="firma" required>
+
+    <input type="submit" name="accion" value="Alta">
+</form>
+<a href="main.html" id="volver">VOLVER</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BORRADO</title>
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+</head>
+<body>
+<h1>Borrar Jesuita</h1>
+<!-- formulario de borrado -->
+<form method="post" action="procesarForm.php" id="borrar-form">
+    <label for="idJesuita">N° puesto:</label>
+    <input type="text" name="idJesuita" required><br>
+
+    <input type="hidden" name="accion" value="borrar">
+    <input type="submit" value="Borrar Jesuita">
+</form>
+<a href="main.html" id="volver">VOLVER</a>
+</body>
+</html>

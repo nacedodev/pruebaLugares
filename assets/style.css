@@ -1,0 +1,197 @@
+/*NACHO ACEDO*/
+body,html{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 40px auto 0;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    overflow: hidden; /* Oculta las esquinas redondeadas que sobresalen */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las filas impares */
+table tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+/* Estilos para las filas pares */
+table tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+/* Estilos para las celdas */
+table td {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilos para la cabecera de la tabla */
+table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+select{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #2577a9;
+}
+
+#alta-form{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.214), 0 0 10px lightgreen;
+    transition: box-shadow 0.5s ease;
+}
+
+#alta-form:hover{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.214), 0 0 20px lawngreen;
+}
+
+/* Estilos adicionales para el formulario de modificación */
+#modificar-form form{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.214), 0 0 10px orange;
+    transition: box-shadow 0.5s ease;
+}
+
+#modificar-form form:hover{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.214), 0 0 20px darkorange;
+}
+
+/* Estilos adicionales para el formulario de borrado */
+#borrar-form {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.214), 0 0 10px indianred;
+    transition: box-shadow 0.5s ease;
+}
+
+#borrar-form:hover{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.214), 0 0 20px red;
+}
+
+#procesos {
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+#procesos div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#procesos a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: transform 0.3s;
+    margin-top: 15px;
+}
+
+#procesos a:first-child{
+    background-color:lightgreen;
+    box-shadow: 3px 3px 6px lawngreen;
+}
+
+#procesos a:nth-child(2){
+    background-color: indianred;
+    box-shadow: 3px 3px 6px crimson;
+}
+
+#procesos a:nth-child(3){
+    background-color: orange;
+    box-shadow: 3px 3px 6px darkorange;
+}
+
+#procesos a:nth-child(4){
+    background-color: #3498db;
+    box-shadow: 3px 3px 6px #2577a9;
+
+}
+
+/* Cambia el tamaño al pasar el ratón por encima del botón */
+#procesos a:hover,
+#volver:hover{
+    transform: scale(1.02);
+}
+
+#volver{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: transform 0.3s;
+    background-color: lightcoral;
+    box-shadow: 2px 2px 5px coral;
+    width: 3rem;
+    margin:20px auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+#add{
+    float:right;
+    margin-right: 5px;
+}
